@@ -1,0 +1,29 @@
+html,body{
+    margin:0;
+    width: 100%;
+}
+
+#container-weather{
+    margin-top:15px;
+}
+
+#container-weather > .card-header{
+    text-align:right;
+    font-weight: bold;
+}
+
+h1,h2{
+    text-align: center;
+}
+.temp-range{
+    display: flex;
+    justify-content: space-between;
+}
+.temp-range>div{
+    display: flex;
+    flex-direction: column;
+}
+
+.preview-img{
+    width: 100%;
+}
